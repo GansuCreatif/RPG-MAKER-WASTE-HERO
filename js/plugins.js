@@ -3,5 +3,6 @@
 var $plugins =
 [
 {"name":"ButtonPicture","status":true,"description":"Makes a picture clickable.","parameters":{}},
-{"name":"Crafting","status":true,"description":"Item Crafting System\r\n(Version 1.1.1)","parameters":{"menuCommandCrafting":"{\"show\":\"true\",\"enable\":\"true\",\"text\":\"Crafting\"}","menuCommandBreakdown":"{\"show\":\"false\",\"enable\":\"true\",\"text\":\"Breakdown\"}","textCustomize":"","textIngredients":"Ingredients:","textResults":"Results:","textTools":"Tools:","textPrice":"Price:","textNotes":"Notes:","logWindow":"","logWindowLines":"4","logWindowDisplayTime":"60","logWindowFadeTime":"30","logWindowForCrafting":"true","logWindowForBreakdown":"true"}}
+{"name":"CGMZ_MenuCommandWindow","status":true,"description":"Manage the menu command window","parameters":{"Commands":"[]","Alignment":"center","Keep Original Commands":"true","Enable Text Codes":"true"}},
+{"name":"CGMZ_Core","status":true,"description":"Core CGMZ Plugin, should be placed above all other CGMZ Plugins.","parameters":{"Check for Updates":"true","Dev Tools on Start":"false","Show FPS Counter":"false","Fullscreen":"false","Simulate Production Env":"false","Force Locale":"","Fallback Locale":"en-US"}}
 ];
